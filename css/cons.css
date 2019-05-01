@@ -1,0 +1,12 @@
+#con{
+	width: 100%;
+	background: #000;
+	height: 200px;
+}
+.con{
+	text-align: center;
+}
+.con input{
+	width: 90%;
+	background: #fff;
+}
