@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		
 		<link href="../css/mui.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/cons.css"/>
@@ -17,11 +18,63 @@
 		</script>
 		<div id="con">
 			<div class="mui-input-row mui-search con">
-				<i class="iconfont icon-saoma" style="color: #fff;font-weight: 600;"></i>
+				<i class="iconfont icon-saoma" style="color: #fff;font-weight: 600;font-size: 20px;"></i>
 				<input type="search" class="mui-input-clear" placeholder="">
 			</div>
+			<ul class="gong mui-table-view mui-grid-view mui-grid-9">
+				<li class="mui-table-view-cell mui-media mui-col-sm-3">
+					<a href="#">
+						<span class="mui-icon iconfont icon-gongdan ico"></span>
+						<div class="mui-media-body" id="bor">工单</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-sm-3">
+					<a href="#">
+						<span class="mui-icon iconfont icon-daizhifu ico"></span>
+						<div class="mui-media-body" id="bor">待支付</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-sm-3">
+					<a href="#">
+						<span class="mui-icon iconfont icon-zhongguohangtiantubiaoheji-weizhuanlunkuo- ico"></span>
+						<div class="mui-media-body" id="bor">待续费</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-sm-3">
+					<a href="#">
+						<span class="mui-icon iconfont icon-chongzhi ico"></span>
+						<div class="mui-media-body" id="bor">充值</div>
+					</a>
+				</li>			
+			</ul>
 			
 		</div>
+		<ul class="mui-table-view mui-grid-view mui-grid-9" id="shuju">
+			<li class="mui-table-view-cell mui-media mui-col-sm-3">
+				<a href="#">
+					<span id="shu">0</span>
+					<div class="mui-media-body" id="wen">异常数据</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media mui-col-sm-3">
+				<a href="#">
+					<span id="shu">0</span>
+					<div class="mui-media-body" id="wen">数据不足</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media mui-col-sm-3">
+				<a href="#">
+					<span id="shu">0</span>
+					<div class="mui-media-body" id="wen">安全事件</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media mui-col-sm-3">
+				<a href="#">
+					<span id="shu">0</span>
+					<div class="mui-media-body" id="wen">安全漏洞</div>
+				</a>
+			</li>			
+		</ul>
 		
 		
 	</body>

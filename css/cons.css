@@ -1,12 +1,46 @@
 #con{
 	width: 100%;
 	background: #000;
-	height: 200px;
+	height: 160px;
 }
 .con{
 	text-align: center;
 }
 .con input{
 	width: 90%;
+	background: gray;
+}
+ul.gong{
+	background: #000 !important;
+}
+ul.gong,ul.gong li{
+	/* background: #fff !important; */
+	border: 0px !important;	
+}
+.ico{
+	color: #fff;
+	font-size: 40px !important;
+}
+
+
+#bor{
+	color: #fff ;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+#shuju{
 	background: #fff;
+	border: 0px;
+}
+#shuju li{
+	border: 0px;
+}
+#shu{
+	color: #000;
+	font-size: 20px;
+}
+#wen{
+	color: #000;
+	font-size: 16px;
 }
