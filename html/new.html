@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/new.css"/>
+	</head>
+
+	<body>
+		<script src="../js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+				  <a href="#">
+					<img src="../img/banner.jpg"width="100%" height="300px">
+				  </a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+				  <a href="#">
+					<img src="../img/banner.jpg"width="100%" height="300px"width="100%" height="300px"width="100%" height="300px">
+				  </a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+				  <a href="#">
+					<img src="../img/banner1.jpg"width="100%" height="300px"width="100%" height="300px">
+				  </a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+				  <a href="#">
+					<img src="../img/banner2.jpg"width="100%" height="300px">
+				  </a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+				  <a href="#">
+					<img src="../img/banner.jpg"width="100%" height="300px">
+				  </a>
+				</div>
+			</div>
+		</div>
+		<ul class="mui-table-view">			
+			<li id="zn"><span></span>智能多媒体服务</li>			
+			<p class="vid">视频内容分析VCA</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增控制台及定价</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>VCA提供后付费方式进行计费，用户可以控制台直接创建和管理视频分析。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>物联网服务</li>	
+			<p class="vid">规则引擎</p>
+			<li class="mui-table-view-cell mui-collapse">				
+				<a class="mui-navigate-right" href="#">新增规则字典</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>规则字典是一份存储在云端的KV(key-value)数据字典，数据可以在规则引擎的SQL语句中通过函数访问，也可以作为规则引擎的数据目的地被写入，也可以通过Rest API读写。</p>
+				</div>		
+			</li>
+			
+			<li id="zn"><span></span>计算</li>
+			<p class="vid">容器引擎CCE</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">支持使用容器镜像构建服务</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>百度智能云镜像构建服务支持在页面上配置基于代码仓库或Dockerfile的镜像构建规则，并由用户手动触发/代码仓库变更自动触发镜像构建，打通用户代码变更到容器部署的中间环节，方便用户更高效便捷地部署容器化服务。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>网络</li>
+			<p class="vid">私有网络VPC</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增服务网卡服务</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>百度智能云服务网卡将BOS等VPC外部服务映射到VPC内部，用户可以在VPC内或者混合云对端通过内网便捷、安全地访问这些服务。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>存储与CDN</li>
+			<p class="vid">内容分发网络CDN</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增单请求响应限速配置</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>单请求响应限速是指通过用户自定义值来限定此域名下向客户端传输的每份请求的最大响应速率。该速率是针对单个请求的，多请求自动翻倍。</p>
+				</div>
+			</li><br/>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增图片鉴黄走势及SLA服务等级数据</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>CDN图片鉴黄是百度基于云计算平台，通过对海量数据进行快速扫描，来检测出通过CDN加速的图片是否涉黄，能够帮助用户节省90%以上的人力审核成本。为了方便您使用，CDN为用户提供了界面化的图审控制台，用户可在控制台查看CDN审核出的涉黄图片，并按需进行人工复审。</p>
+				</div>
+			</li><br/>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">海外CDN发布API接口</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>新增加海外CDN API文档，包含域名操作接口、域名配置接口和日志接口。</p>
+				</div>
+			</li>
+		
+			<p class="vid">表格服务BTS</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">提供操作控制台</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>提供BTS操作控制台，方便用户通过控制台进行实例及表格管理服务。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>数据库</li>
+			<p class="vid">关系型数据库RDS</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">RDS武汉区域调整磁盘上限</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>RDS武汉区域调整磁盘上限最大支持至3000G。</p>
+				</div>
+			</li><br/>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">MySQL只读实例降价</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>MySQL只读实例线上价格打8折。</p>
+				</div>
+			</li><br/>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">RDS操作指南视频上线</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>提供RDS操作指南视频提升用户体验。</p>
+				</div>
+			</li>
+		
+			<p class="vid">文档数据库MongoDB</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增类型及付费方式</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>增加后付费、8核32G三节点副本集架构实例。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>安全与管理</li>
+			<p class="vid">云监控BCM</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">应用监控支持进程监控</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>提供BTS操作控制台，方便用户通过控制台进行实例及表格管理服务。</p>
+				</div>
+			</li><br/>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新增仪表盘功能</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>VCA提供后付费方式进行计费，用户可以控制台直接创建和管理视频分析。</p>
+				</div>
+			</li>
+					
+			<p class="vid">安全预警</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">发布预警</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>VCA提供后付费方式进行计费，用户可以控制台直接创建和管理视频分析。</p>
+				</div>
+			</li>
+			
+			<li id="zn"><span></span>公共</li>
+			<p class="vid">云审计BCT</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">新产品</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>VCA提供后付费方式进行计费，用户可以控制台直接创建和管理视频分析。</p>
+				</div>
+			</li>
+					
+			<p class="vid">多用户访问控制</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">设置登入session过期时间</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>增加后付费、8核32G三节点副本集架构实例。</p>
+				</div>
+			</li>
+					
+			<p class="vid">鉴权认证</p>
+			<li class="mui-table-view-cell mui-collapse">
+				<a class="mui-navigate-right" href="#">增加签名错误排查</a>
+				<div class="mui-collapse-content" id="vca">
+					<p>VCA提供后付费方式进行计费，用户可以控制台直接创建和管理视频分析。</p>
+				</div>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			var gallery = mui('.mui-slider');
+				gallery.slider({
+					interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+				});
+				
+		</script>
+	</body>
+
+</html>

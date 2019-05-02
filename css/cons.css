@@ -1,3 +1,6 @@
+body{
+	background: #fff !important;
+}
 #con{
 	width: 100%;
 	background: #000;
@@ -43,4 +46,51 @@ ul.gong,ul.gong li{
 #wen{
 	color: #000;
 	font-size: 16px;
+}
+
+#slider{
+	width: 90%;
+	height: 260px;
+	margin: auto;
+	background: #fff;
+}
+
+.cp{
+	font-size: 16px;
+	color: #000;
+	padding-left: 15px;
+}
+#le{
+	float: left;
+	margin-left: 15px;
+}
+#le img{
+	border: 1px solid gray;
+}
+
+#ri{
+	float: left;
+	margin-left: 40px;
+}
+.mui-table-view:before,.mui-table-view:after,.mui-table-view-cell:after{
+	height: 0;
+}
+
+.fiv{
+	font-size: 16px;
+	color: #000;
+	padding-left: 15px;
+}
+#ned{
+	width: 180px;
+	height: 180px;
+	margin: auto;	
+	border: 20px solid gray;
+	border-radius: 50%;
+	padding-top: 35px;
+	text-align: center;
+}
+#ned a{
+	font-size: 14px;
+	color: #000;
 }
