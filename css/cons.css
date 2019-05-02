@@ -60,18 +60,12 @@ ul.gong,ul.gong li{
 	color: #000;
 	padding-left: 15px;
 }
-#le{
-	float: left;
-	margin-left: 15px;
-}
+
 #le img{
 	border: 1px solid gray;
 }
 
-#ri{
-	float: left;
-	margin-left: 40px;
-}
+
 .mui-table-view:before,.mui-table-view:after,.mui-table-view-cell:after{
 	height: 0;
 }
