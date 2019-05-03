@@ -33,5 +33,106 @@ body{
 	text-align: center;
 	margin-left: 80px;
 }
-	
 
+#renz{
+	/* overflow: hidden; */
+	/* margin-top: 20px; */
+	width: 90%;
+	height: 30px;
+	list-style: none;
+	background: #ccc;
+	line-height: 30px;
+	margin: 20px auto;
+}
+#renz li:nth-child(1) img{
+	width: 42%;
+	height: 30px;
+	/* background: pink; */
+}
+#renz li:nth-child(2){
+	font-size: 14px;
+	color: #666;
+}
+
+#yue{
+	width: 90%;
+	height: 170px;
+	background: royalblue;
+	margin: auto;
+	position: relative;
+}
+#yue p:nth-child(1){
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+#yue p:nth-child(2){
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+}
+#yue span:nth-child(3){
+	display: block;
+	width: 15%;
+	height: 38px;
+	color: #fff;
+	font-size: 16px;
+	/* background: red; */
+	border: 2px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 35px;
+	right: 20px;
+}
+#yue span:nth-child(4){
+	display: block;
+	width: 100%;
+	/* height: 1px; */
+	
+	border-bottom: 1px dashed #ccc;
+	position: absolute;
+	bottom: 50px;
+}
+#yue p:nth-child(5){
+	color: #fff;
+	position: absolute;
+	bottom: 5px;
+	left: 20px;
+}
+#yue p:nth-child(6){
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	bottom: 5px;
+}
+#caiwu{
+	list-style: none;
+	/* background: pink; */
+	width: 90%;
+	height: 140px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 2;
+}
+#caiwu li img{
+	margin-top: 10px;
+	
+}
+#caiwu li p{
+	color: #000;
+	font-size: 16px;
+}
+
+#liebiao:after,#liebiao:before{
+	height: 0;
+}
+#liebiao li:nth-child(3):after{
+	height: 1px;
+}
