@@ -29,8 +29,9 @@ ul.gong,ul.gong li{
 #bor{
 	color: #fff ;
 	font-size: 16px;
-	font-weight: 600;
+	/* font-weight: 600; */
 	font-family: sans-serif;
+	text-align: center;
 }
 #shuju{
 	background: #fff;

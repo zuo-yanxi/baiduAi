@@ -1,0 +1,37 @@
+body{
+	background: #fff !important;
+}
+
+#sigin{
+	background: #fff;
+	overflow: hidden;
+}
+#sigin ul{
+	list-style: none;
+	width: 90%;
+}
+#sigin>ul>li:nth-child(1){
+	/* background: red; */
+	height: 50px;	
+}
+#sigin>ul>li:nth-child(2){
+	height: 50px;
+	line-height: 50px;
+	margin-left: 15px;
+	margin-right: 10px;
+	/* background: red; */
+}
+#sigin>ul>li:nth-child(3) img,
+#sigin>ul>li:nth-child(4) img{
+	margin-top: 10px;		
+}
+#sigin>ul>li:nth-child(5){
+	width: 30%;
+	height: 48px;
+	border: 1px solid #ccc;
+	line-height: 48px;
+	text-align: center;
+	margin-left: 80px;
+}
+	
+
